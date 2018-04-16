@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tyy_dialog_header_bg_color">#ff00796b</color>
+    <color name="tyy_dialog_title_bg_color">#ff00695c</color>
+    <color name="tyy_white">#ffffffff</color>
+    <color name="tyy_normal_text_color">#808080</color>
+    <color name="tyy_textcolor_pick_item_selected">#ff00796b</color>
+    <color name="tyy_textcolor_pick_dialog_title_normal">#90ffffff</color>
+</resources>

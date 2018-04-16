@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="datePickerStyle" format="reference"/>
+    <attr name="datePickerDialogTheme" format="reference"/>
+
+    <declare-styleable name="YYDatePicker">
+        <!--The minimal date shown by this calender view in mm/dd/yyyy format. -->
+        <attr name="minDate" format="string" />
+    </declare-styleable>
+</resources>

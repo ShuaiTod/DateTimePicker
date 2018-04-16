@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tyy_selected_date_year_size">24sp</dimen>
+    <dimen name="tyy_selected_date_month_size">20sp</dimen>
+    <dimen name="tyy_dialog_title_text_size">14sp</dimen>
+</resources>

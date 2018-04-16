@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tyy_date_picker_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:pointerIcon="hand"
+        android:textColor="@color/tyy_white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="@dimen/tyy_dialog_title_text_size"
+        android:gravity="center_horizontal"
+        android:text="@string/tyy_dialog_title"
+        android:background="@color/tyy_dialog_title_bg_color"/>
+
+    <LinearLayout
+        android:id="@+id/tyy_date_picker_month_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="18dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:background="@color/tyy_dialog_header_bg_color">
+        <TextView
+            android:id="@+id/tyy_date_picker_header_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:includeFontPadding="false"
+            android:layout_marginStart="-8dp"
+            android:layout_marginEnd="-8dp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginBottom="-8dp"
+            android:padding="8dp"
+            android:pointerIcon="hand"
+            android:textColor="@color/tyy_textcolor_pick_dialog_title"
+            android:textSize="@dimen/tyy_selected_date_year_size"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tyy_date_picker_header_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:gravity="center_horizontal"
+            android:pointerIcon="hand"
+            android:ellipsize="none"
+            android:textColor="@color/tyy_textcolor_pick_dialog_title"
+            android:textSize="@dimen/tyy_selected_date_month_size"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tyy_year_picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tyy_month_picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
